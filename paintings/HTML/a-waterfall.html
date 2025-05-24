@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> A Waterfall </title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="../JS/popup.js" defer></script>
+        <script src="../JS/navbar.js" defer></script>
+
+
+        <link rel="stylesheet" href="../CSS/painting.css">
+        <link rel="stylesheet" href="../CSS/popup.css">
+        <link rel="stylesheet" href="../CSS/navbar.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Italianno&family=Libre+Caslon+Display&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Quintessential&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <button id="hamburger">&#9776;</button>
+            <div id="title">Title: A Waterfall </div>
+        </header>
+        <main id="main">
+            <section class="image-container" id="picture">
+                <img class="zoomable-image" id="picturee" src="../media/oil/A Waterfall (c. 1910).jpg" alt="A Waterfall painting by Sargent">
+                <span class="tooltip-text">Click to inspect the artwork</span>
+            </section>
+
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img id="modalImage" class="zoom">
+                <div class="escape-text">Click Escape to leave view</div>
+            </div>
+
+            <section id="info">
+                <div id="spec">
+                    <div class="text"> <span class="section"> Year: </span> 1910</div>
+                    <div class="text"> <span class="section">Art movement: </span> Impressionism</div>
+                    <div class="text"> <span class="section">Medium: </span> Oil on canvas</div>
+                    <div class="text"> <span class="section"> Dimensions: </span> 113.03 x 72.39 cm</div>
+                </div>
+            </section>
+            <section id="description">
+                <p>
+                    <span class="section"> Description: </span> The artwork portrays a tumultuous and dynamic landscape centered around the powerful motion of a waterfall. The composition successfully captures the vigorous flow of water cascading down rugged rocks, surrounded by shadowy cliffs. The artist utilizes a palette with both muted earth tones and striking whites to emphasize the dramatic contrast between the rock faces and the foaming water. The play of light and dark creates a sense of depth and movement, while the loose, expressive brushstrokes are indicative of the Impressionist style’s fascination with nature’s fleeting moments. The scene has an almost palpable vitality, inviting the viewer to partake in the sensory experiences of sound and freshness that such a scene would inevitably offer.
+                </p>
+            </section>
+        </main>
+        <div id="navbar">
+            <br>
+            <div id="closeBtn">&times;</div>
+            <a href="../../index.html" target="_blank">Home</a> <br>
+            <a href="../../pages/oil_paintings.html" target="_blank">Oil paintings</a> <br>
+            <a href="../../pages/watercolor_paintings.html" target="_blank">Watercolor paintings</a> <br>
+            <a href="../../pages/drawings.html" target="_blank">Drawings</a>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Lake O’Hara</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="../JS/popup.js" defer></script>
+        <script src="../JS/navbar.js" defer></script>
+
+
+        <link rel="stylesheet" href="../CSS/painting.css">
+        <link rel="stylesheet" href="../CSS/popup.css">
+        <link rel="stylesheet" href="../CSS/navbar.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Italianno&family=Libre+Caslon+Display&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Quintessential&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <button id="hamburger">&#9776;</button>
+            <div id="title">Title: Lake O’Hara</div>
+        </header>
+        <main id="main">
+            <section class="image-container" id="picture">
+                <img class="zoomable-image" id="picturee" src="../media/oil/Lake O’Hara (1916).jpg" alt="Lake O’Hara by Sargent">
+                <span class="tooltip-text">Click to inspect the artwork</span>
+            </section>
+
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img id="modalImage" class="zoom">
+                <div class="escape-text">Click Escape to leave view</div>
+            </div>
+
+            <section id="info">
+                <div id="spec">
+                    <div class="text"> <span class="section"> Year: </span> 1916</div>
+                    <div class="text"> <span class="section">Art movement: </span> Impressionism</div>
+                    <div class="text"> <span class="section">Medium: </span> Oil on canvas</div>
+                    <div class="text"> <span class="section"> Dimensions: </span> 97.5 x 116.2 cm</div>
+                </div>
+            </section>
+            <section id="description">
+                <p>
+                    <span class="section"> Description: </span> In this closely cropped view of the Canadian Rockies, John Singer Sargent explored the materiality of paint. With its rough, gestural brushwork, thick layers of pigment, and thin washes, Lake O’Hara exemplifies the artist’s late style. The painting verges on abstraction, and is in stark contrast to the work of earlier painters who freighted their images of the Rockies with symbolism.
+
+                    Lake O’Hara occupies an important position in the history of the Fogg Museum. When it was acquired in 1916, the painting was the first work by a living artist to enter the museum’s collection. Edward W. Forbes, the Fogg’s director, arranged for the purchase of Lake O’Hara despite his uncertainty about the quality of contemporary painting: “In the past, the policy of the Fogg Museum has been to exhibit the work of men who are dead.” But “Mr. Sargent is usually considered to be the greatest living American painter, and one or two of the greatest if not the greatest of any nationality.”
+                </p>
+            </section>
+        </main>
+        <div id="navbar">
+            <br>
+            <div id="closeBtn">&times;</div>
+            <a href="../../index.html" target="_blank">Home</a> <br>
+            <a href="../../pages/oil_paintings.html" target="_blank">Oil paintings</a> <br>
+            <a href="../../pages/watercolor_paintings.html" target="_blank">Watercolor paintings</a> <br>
+            <a href="../../pages/drawings.html" target="_blank">Drawings</a>
+        </div>
+    </body>
+    </html>

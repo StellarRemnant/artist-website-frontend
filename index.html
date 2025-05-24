@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>John Singer Sargent</title>
+        
+        <link rel="stylesheet" href="main_page_sources/code/CSS/mainstyle.css">
+        <link rel="stylesheet" href="main_page_sources/code/CSS/slideshow.css">
+        <link rel="stylesheet" href="main_page_sources/code/CSS/scroll.css">
+        <link rel="stylesheet" href="main_page_sources/code/CSS/carousel.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Charm:wght@400;700&family=Oswald:wght@200..700&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Charm:wght@400;700&family=Italianno&family=Libre+Caslon+Display&family=Oswald:wght@200..700&family=Quintessential&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Charm:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Italianno&family=Libre+Caslon+Display&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Quintessential&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+        
+        <script src="main_page_sources/code/JS/search.js" defer></script>
+        <script src="main_page_sources/code/JS/search_click.js" defer></script>
+        <script src="main_page_sources/code/JS/clear_search_bar.js" defer></script>
+        <script src="main_page_sources/code/JS/slideshow.js" defer></script>
+        <script src="main_page_sources/code/JS/scroll_effect.js" defer></script>
+        <script src="main_page_sources/code/JS/carousel.js" defer></script>
+    
+    </head>
+<body>
+    <div id="one">
+        <div id="name">
+            <a id="link" href="biography/painter.html" target="_blank">John      Singer      Sargent</a>
+        </div>
+        <div id="search">
+            <input id="search_bar" type="search" placeholder="Search the gallery">
+            <button id="clear_button" class="clear-button" type="button">&times;</button>
+            <button class="clipart-button">
+                <img id="mag" src="main_page_sources/media/magnifier.png">
+            </button>
+            <div id="suggestions"></div>
+        </div>
+    </div>
+
+    <div class="total">
+        <div class="blur-left">
+            <!-- Duplicated slides for blur-left -->
+            <button class="nav-button prev-button">&#10094;</button>
+            <div class="slide slide-1">
+                <img src="paintings/media/oil/The Sitwell Family.jpg" alt="">
+            </div>
+            <div class="slide slide-2">
+                <img src="paintings/media/oil/Le Verre De Porto (A Dinner Table At Night).jpg" alt="">
+            </div>
+            <div class="slide slide-3">
+                <img src="paintings/media/oil/Lady and Child Asleep in a Punt under the Willows (1887).jpg" alt="">
+            </div>
+            <div class="slide slide-4">
+                <img src="paintings/media/oil/Essie,_Ruby_und_Ferdinand_Wertheimer.jpg" alt="">
+            </div>
+            <div class="slide slide-5">
+                <img src="paintings/media/oil/Hall of the Grand Council.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="slide slide-1">
+                <img src="paintings/media/oil/The Sitwell Family.jpg" alt="">
+            </div>
+            <div class="slide slide-2">
+                <img src="paintings/media/oil/Le Verre De Porto (A Dinner Table At Night).jpg" alt="">
+            </div>
+            <div class="slide slide-3">
+                <img src="paintings/media/oil/Lady and Child Asleep in a Punt under the Willows (1887).jpg" alt="">
+            </div>
+            <div class="slide slide-4">
+                <img src="paintings/media/oil/Essie,_Ruby_und_Ferdinand_Wertheimer.jpg" alt="">
+            </div>
+            <div class="slide slide-5">
+                <img src="paintings/media/oil/Hall of the Grand Council.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="blur-right">
+            <!-- Duplicated slides for blur-right -->
+            <div class="slide slide-1">
+                <img src="paintings/media/oil/The Sitwell Family.jpg" alt="">
+            </div>
+            <div class="slide slide-2">
+                <img src="paintings/media/oil/Le Verre De Porto (A Dinner Table At Night).jpg" alt="">
+            </div>
+            <div class="slide slide-3">
+                <img src="paintings/media/oil/Lady and Child Asleep in a Punt under the Willows (1887).jpg" alt="">
+            </div>
+            <div class="slide slide-4">
+                <img src="paintings/media/oil/Essie,_Ruby_und_Ferdinand_Wertheimer.jpg" alt="">
+            </div>
+            <div class="slide slide-5">
+                <img src="paintings/media/oil/Hall of the Grand Council.jpg" alt="">
+            </div>
+            <button class="nav-button next-button">&#10095;</button>
+        </div>
+    </div>
+
+    <div id="three">
+        <div id="text">
+            <div class="scroll-element" id="text_one">
+                "Throughout  his career,  he  created  around  nine  hundred  paintings  and  more  than  two  thousand  watercolors,  consisting  mainly  of  Edwardian-era  portraits,  in  addition  to  countless  sketches  and  drawings.  This is how John Singer Sargent earned the title of the leading portrait painter of his generation."
+            </div>
+            <div class="scroll-element" id="text_two"> <a href="biography/painter.html" target="_blank" id="link_2"> Learn more about the artist</a> </div>
+        </div>
+        <div class="scroll-element" id="sp">
+            <div id="sp_1"> <a href="paintings/HTML/self-portrait.html" target="_blank"> <img id="spp" src="main_page_sources/media/sp.png"></a> </div>
+            <div id="sp_2"><a id="link_3" href="paintings/HTML/self-portrait.html" target="_blank"> Self Portrait (1906) </a> </div> 
+        </div>
+    </div>
+
+    <div class="scroll-element" id="four">
+        Let 's    start    the    adventure
+    </div>
+
+    <div id="container">
+        <input type="radio" name="position" id="pos1" />
+        <input type="radio" name="position" id="pos2" checked/>
+        <input type="radio" name="position" id="pos3" />
+        <main id="carousel">
+            <div class="item" >
+                <a href="pages/drawings.html" class="image-link " target="_blank">
+                    <img src="paintings/media/drawings/Portrait Of Eugenia Errazuriz (ca 1905).jpg">
+                    <span class="carousel-text">Drawings</span> 
+                </a> 
+            </div>
+            <div class="item" >
+                <a href="pages/oil_paintings.html" class="image-link" target="_blank"> 
+                    <img src="paintings/media/oil/Mrs Carl Meyer And Her Children (1896).jpg">
+                    <span class="carousel-text">Oil Paintings</span> 
+                </a> 
+            </div>
+            <div class="item">
+                <a href="pages/watercolor_paintings.html" class="image-link" target="_blank"> 
+                    <img src="paintings/media/watercolor/Lady with a Parasol (1900-1).jpg">
+                    <span class="carousel-text">Watercolor</span> 
+                </a>
+            </div>
+        </main>
+    </div>
+    <div class="lm scroll-element">Learn More</div>
+    <div id="video-grid">
+        <div class="video scroll-element">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xpl5HuM0nl8?si=c5_SRmRAuIrY3FNZ" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <div class="video-title">John Singer Sargent, The Real Story</div>
+        </div>
+        <div class="video scroll-element">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U0nq6lKNTUU?si=D0XaxTZ3KPKd2Uh5" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <div class="video-title">John Singer Sargent and the Gilded Age</div>
+        </div>
+        <div class="video scroll-element">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bss2HYcK3SI?si=4HO3DFaGOmA333r3" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <div class="video-title">John Singer Sargent: Learning Style and <br> Technique Through Master Copy</div>
+        </div>
+        <div class="video scroll-element">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jnxJQ5HPPSw?si=fADL3xpoaHsQ_mtK" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <div class="video-title">Boston exhibit reveals John Singer Sargent's<br> methods and why his work remains relevant
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

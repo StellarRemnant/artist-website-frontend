@@ -1,0 +1,114 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #2f1a0c;
+    background: linear-gradient(45deg, rgb(66, 21, 20) 20%, rgb(132, 86, 73) 100%);
+}
+
+header {
+    background-color: rgb(45, 11, 10);
+    color: rgb(243, 195, 50);
+    font-family: WindSong;
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    word-spacing: 10px; 
+}
+
+#bb{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 20, 19);
+    
+    padding: 10px 0;
+    font-family: Cormorant Garamond;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 150px  150px 150px 150px ;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div a {
+    color: #f4c88f;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s, font-size 0.5s;
+}
+
+nav div a:hover{
+    color: #b39165;
+    font-size: 25.2px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: rgb(246,238,238);
+    background: radial-gradient(circle, rgba(246,238,238,1) 0%, rgb(244, 214, 183) 100%);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), inset 0 5px 15px rgba(70, 45, 25, 0.7);
+    font-size: 20px;
+    position:relative;
+}
+
+.biography-image {
+    float: right; 
+    width:350px;
+    margin: 30px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h3{
+    font-size: 35px;
+    font-family: Cormorant Garamond;
+}
+
+.keywords{
+    font-size: 23px;
+    text-decoration: underline;
+    
+}
+
+.links, .bt{
+    text-decoration:none;
+    color:#cd5910;
+    transition: color 0.1s;
+}
+
+.links:hover, .bt:hover{
+    color:#ff9900;
+}
+
+.links:active, .bt:active{
+    color:#ff6200;
+}
+
+.bt{
+    position:absolute;
+    right:20px;
+    bottom: 10px;
+}

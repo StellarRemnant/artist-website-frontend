@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Lord Ribblesdale</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="../JS/popup.js" defer></script>
+        <script src="../JS/navbar.js" defer></script>
+
+
+        <link rel="stylesheet" href="../CSS/painting.css">
+        <link rel="stylesheet" href="../CSS/popup.css">
+        <link rel="stylesheet" href="../CSS/navbar.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Italianno&family=Libre+Caslon+Display&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Quintessential&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <button id="hamburger">&#9776;</button>
+            <div id="title">Title: Lord Ribblesdale</div>
+        </header>
+        <main id="main">
+            <section class="image-container" id="picture">
+                <img class="zoomable-image" id="picturee" src="../media/oil/Lord Ribblesdale (1902).jpg" alt="Lord Ribblesdale by Sargent">
+                <span class="tooltip-text">Click to inspect the artwork</span>
+            </section>
+
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img id="modalImage" class="zoom">
+                <div class="escape-text">Click Escape to leave view</div>
+            </div>
+
+            <section id="info">
+                <div id="spec">
+                    <div class="text"> <span class="section"> Year: </span> 1902</div>
+                    <div class="text"> <span class="section">Art movement: </span> Realism</div>
+                    <div class="text"> <span class="section">Medium: </span> Oil on canvas</div>
+                    <div class="text"> <span class="section"> Dimensions: </span> 258.4 cm × 143.5 cm </div>
+                </div>
+            </section>
+            <section id="description">
+                <p>
+                    <span class="section"> Description: </span> Sargent's original intention was to paint Ribblesdale in formal court livery as Master of the Buckhounds, but the completed painting shows him more informally, in his more practical "ratcatcher" clothes. He stands on a plain parquet floor against a white painted wall, holding a hunting whip in his grey-gloved left hand, with the other hand on his right hip. He is wearing a black top hat, with a black silk muffler knotted to his right side of his neck, and polished black boots. Over his yellow waistcoat, dark brown jacket and buff breeches, Ribblesdale is shrouded by a voluminous black Chesterfield overcoat. The tall hat and the fluted pilaster of the wall behind Ribblesdale, the clear silhouette of his long coat, and subtle changes that Sargent makes to the sitter's physiognomy – such as an elongated nose, and the head disproportionately small in comparison to the body – all emphasise Ribblesdale's thinness and height.
+                </p>
+            </section>
+        </main>
+        <div id="navbar">
+            <br>
+            <div id="closeBtn">&times;</div>
+            <a href="../../index.html" target="_blank">Home</a> <br>
+            <a href="../../pages/oil_paintings.html" target="_blank">Oil paintings</a> <br>
+            <a href="../../pages/watercolor_paintings.html" target="_blank">Watercolor paintings</a> <br>
+            <a href="../../pages/drawings.html" target="_blank">Drawings</a>
+        </div>
+    </body>
+    </html>

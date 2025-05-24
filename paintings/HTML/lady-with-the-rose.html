@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Lady With a Rose</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="../JS/popup.js" defer></script>
+        <script src="../JS/navbar.js" defer></script>
+
+
+        <link rel="stylesheet" href="../CSS/painting.css">
+        <link rel="stylesheet" href="../CSS/popup.css">
+        <link rel="stylesheet" href="../CSS/navbar.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Italianno&family=Libre+Caslon+Display&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Quintessential&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <button id="hamburger">&#9776;</button>
+            <div id="title">Title: Lady With a Rose</div>
+        </header>
+        <main id="main">
+            <section class="image-container" id="picture">
+                <img class="zoomable-image" id="picturee" src="../media/oil/Lady With The Rose (Charlotte Louise Burckhardt) (1882).jpg" alt="Lady With a Rose by Sargent">
+                <span class="tooltip-text">Click to inspect the artwork</span>
+            </section>
+
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img id="modalImage" class="zoom">
+                <div class="escape-text">Click Escape to leave view</div>
+            </div>
+
+            <section id="info">
+                <div id="spec">
+                    <div class="text"> <span class="section"> Year: </span> 1882</div>
+                    <div class="text"> <span class="section">Art movement: </span> Realism</div>
+                    <div class="text"> <span class="section">Medium: </span> Oil on canvas</div>
+                    <div class="text"> <span class="section"> Dimensions: </span> 213.4 x 113.7 cm</div>
+                </div>
+            </section>
+            <section id="description">
+                <p>
+                    <span class="section"> Description: </span>Sargent’s sitter for this portrait was the twenty-year-old daughter of a Swiss merchant and his American wife, members of the artist’s cosmopolitan circle in Paris. The monochromatic palette, shallow space, and emphasis on the figure’s silhouette pay tribute to the Spanish master Diego Velázquez, whose work Sargent’s Parisian teacher, Carolus-Duran, had encouraged him to study. Sargent exhibited the portrait to great acclaim at the Paris Salon of 1882. In the words of the novelist Henry James, it offered “the slightly ‘uncanny’ spectacle of a talent which on the very threshold of its career has nothing more to learn.”
+                </p>
+            </section>
+        </main>
+        <div id="navbar">
+            <br>
+            <div id="closeBtn">&times;</div>
+            <a href="../../index.html" target="_blank">Home</a> <br>
+            <a href="../../pages/oil_paintings.html" target="_blank">Oil paintings</a> <br>
+            <a href="../../pages/watercolor_paintings.html" target="_blank">Watercolor paintings</a> <br>
+            <a href="../../pages/drawings.html" target="_blank">Drawings</a>
+        </div>
+    </body>
+    </html>
