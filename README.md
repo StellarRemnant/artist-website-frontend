@@ -2,6 +2,8 @@
 
 A visually stunning front-end website to explore an artist’s paintings and biography.
 
+---
+
 ## Overview
 
 The website offers an intuitive and interactive experience to browse paintings through multiple features:
@@ -29,17 +31,34 @@ The website offers an intuitive and interactive experience to browse paintings t
 - **Biography Page:**  
   Clicking the artist’s name on the main page takes users to a dedicated biography page.
 
-## Technologies Used
+---
 
-- HTML5  
-- CSS3  
-- JavaScript  
+## Screenshorts
+
+<table>
+  <tr>
+    <td style="padding: 10px;"><img src="screenshots/1.png" width="300" /></td>
+    <td style="padding: 10px;"><img src="screenshots/2.png" width="300" /></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"><img src="screenshots/3.png" width="300" /></td>
+    <td style="padding: 10px;"><img src="screenshots/4.png" width="300" /></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"><img src="screenshots/5.png" width="300" /></td>
+    <td style="padding: 10px;"><img src="screenshots/6.png" width="300" /></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"><img src="screenshots/7.png" width="300" /></td>
+    <td style="padding: 10px;"></td>
+  </tr>
+</table>
+
+
+---
 
 ## How to Use
 
 1. Clone or download the repository  
-2. Open `main_page.html` in your browser to explore the site  
+2. Open `index.html` in your browser to explore the site  
 
-## License
-
-This project is open-source and available under the MIT License.
