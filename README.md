@@ -33,7 +33,7 @@ The website offers an intuitive and interactive experience to browse paintings t
 
 ---
 
-## Screenshorts
+## Screenshots
 
 <table>
   <tr>
